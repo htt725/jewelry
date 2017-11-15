@@ -1,0 +1,57 @@
+.center{
+    width: 100%;
+}
+
+.do-news-img{
+    width: 1908px;
+    height: 410px;
+     background-image: url('http://file.cdn-static.cn/4853_w2000.jpg?imageMogr2/thumbnail/2000x2000/q/100');
+    background-attachment: fixed;
+    
+}
+.news-theme{
+    width: 500px;
+    height: 400px;
+    margin-left: 300px;
+    position: relative;
+}
+
+.do-news-content{
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 100px;
+} 
+.do-news-one {
+    width: 1200px;
+    height: 177px;
+    
+}
+.do-news-one:hover{
+    background: palevioletred;
+    color: white;
+}
+
+.do-news-two{
+     width: 1200px;
+    height: 177px;
+    
+}
+.do-news-two:hover{
+    background: palevioletred;
+    color: white;
+}
+
+.do-news-one .news-one{
+    width: 1200px;
+    height: 117px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.do-news-two .news-two{
+    width: 1200px;
+    height: 117px;
+    margin-top: 20px;
+    display: flex;
+}

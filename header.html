@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="韩恬恬">
+    <title></title>
+     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+     <script src="js/main.js"></script>
+     <script>
+        $(function () {
+            $('#navone').on({
+                mouseenter: function () { $('#leftone').show(); },
+                mouseleave: function () { $('#leftone').hide(); }
+            })
+            $('#boxone').on({
+                mouseenter: function () { $('#rightone').show(); },
+                mouseleave: function () { $('#rightone').hide() }
+            })
+            $('#boxtwo').on({
+                mouseenter: function () { $('#righttwo').show(); },
+                mouseleave: function () { $('#righttwo').hide(); }
+            })
+            $('#boxthree').on({
+                mouseenter: function () { $('#rightthree').show(); },
+                mouseleave: function () { $('#rightthree').hide(); }
+            })
+        })
+    </script>
+    <style>
+      *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
+      .header-nav{
+            width: 100%;
+            height: 50px;
+            border:1px solid salmon;   
+      }
+      .content-nav{
+         width: 1200px;
+         height: 50px;
+         border:1px solid seagreen;
+         margin: 0 auto;
+         display: flex;
+         
+      }
+      .content-nav a{
+         text-decoration: none;
+         color:black;
+          padding-left: 120px;
+          margin-top: 20px;
+      }
+    </style>
+</head>
+
+<body>
+      
+     
+        <div class="header-nav">
+            <div class="content-nav ">
+                <div class="nav">
+                    <a href="">主页</a>
+                </div>
+                
+                <div class="box" id="boxone">
+                    <a href="">产品中心</a>
+                    <div class="centerone" id="centerone">
+                        <!-- <ul>
+                            <li><a href="">初夏</a> </li>
+                            <li><a href="">爱的旅程</a></li>
+                         </ul> -->
+                    </div>
+                </div>
+
+                <div class="box" id="boxtwo">
+                    <a href="">品牌故事</a>
+                    <div class="centertwo" id="centertwo">
+                        <!-- <ul>
+                            <li><a href="">公司简介</a> </li>
+                            <li><a href="">品牌文化</a></li>
+                        </ul> -->
+                    </div>
+                </div>
+
+                <div class="box" id="boxthree">
+                    <a href="">新闻动态</a>
+                    <div class="centerthree" id="centerthree">
+                        <!-- <ul>
+                            <li><a href="">行业动态</a> </li>
+                            <li><a href="">公司动态</a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="nav">
+                    <a href="">联系我们</a>
+                    
+                </div>
+            </div>
+
+          
+   
+
+</body>
+
+</html>
